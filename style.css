@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Shared style */
+
+.btn {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+  background: rgba(253, 110, 10, 1);
+  padding: 18px 36px;
+  border-style: none;
+  cursor: pointer;
+}
+
+/* Header Section Design */
+
+.header {
+  background: url(images/developer.png),
+    url(images/header_bg.png) rgba(248, 233, 222, 0.63);
+  height: 650px;
+  background-repeat: no-repeat;
+  background-position: 30px 30px, right bottom;
+  background-size: auto 600px, auto 400px;
+}
+
+/* Navbar Design */
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 230px;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.navbar ul a {
+  text-decoration: none;
+}
+
+/* Banner Design */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 0px 100px 0px 220px;
+}
+
+.banner h2 {
+  color: rgba(71, 71, 71, 1);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.banner h1 {
+  color: rgba(24, 24, 24, 1);
+  font-size: 85px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.banner p {
+  color: rgba(117, 117, 117, 1);
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+
+.banner div img {
+  width: 424px;
+}
+
+.button {
+  display: flex;
+  gap: 30px;
+}
