@@ -49,6 +49,7 @@
 }
 .navbar ul a {
   text-decoration: none;
+  color: gray;
 }
 
 /* Banner Design */
@@ -88,4 +89,218 @@
 .button {
   display: flex;
   gap: 30px;
+}
+
+.main-section{
+  margin: 0px auto;
+  width: 1100px;
+
+}
+
+
+/* about me section design */
+
+.about-me{
+    border-radius: 10px;
+    background: rgba(255, 248, 243, 1);
+    margin: 90px auto;
+    overflow: hidden;
+}
+
+.about-me>div{
+  margin: 0px auto;
+  border: 1px gray solid;
+  background-color: white;
+  width: 670px;
+  padding: 10px;
+  margin: 150px auto;
+  
+
+}
+
+.about-me> div>h1{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px 0px;
+}
+
+.about-me> div>p{
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.about-me> div>div{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 25px;
+}
+
+.about-me> div>div div p{
+
+  color: rgba(117, 117, 117, 1);
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+
+}
+.about-me> div>div div h1{
+
+color: rgba(117, 117, 117, 1);
+font-size: 16px;
+text-align: center;
+
+}
+
+.card-section>h1{
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 15px 0px;
+
+}
+
+.card-section>p{
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+.card{
+  display: flex;
+  gap: 40px;
+  margin: 40px 0px;
+}
+
+.card div{
+  border-radius: 5px;
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+padding:20px 30px;
+
+
+}
+.card div h1{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  font-weight: 700;
+  margin: 15px 0px;
+
+}
+
+.card div p{
+
+    color: rgba(117, 117, 117, 1);
+    font-size: 14px;
+    font-weight: 400;
+
+
+}
+
+
+/* My Resume Design */
+
+.resume button{
+display:block;
+margin: 60px auto;
+}
+
+.resume>h1{
+
+  color: rgba(24, 24, 24, 1);
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  padding:40px 0px ;
+
+}
+
+.resume>div{
+  display: flex;
+  gap: 30px;
+
+}
+
+.education>h1, .experience>h1{
+
+color: rgba(71, 71, 71, 1);
+font-size: 26px;
+font-weight: 700;
+text-align: left;
+padding-bottom: 30px;
+
+
+}
+
+.education div h2, .experience div h2{
+
+  color: rgba(71, 71, 71, 1);
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px 0px;
+
+}
+
+.education div h3, .experience div h3{
+
+  color: rgba(71, 71, 71, 1);
+  font-size: 16px;
+  font-weight: 600;
+
+}
+.education div p, .experience div p{
+
+  color: rgb(138, 138, 138);
+  font-size: 14px;
+  padding: 20px 0px;
+  padding-right: 60px;
+
+
+
+}
+
+
+/* footer section design */
+
+.footer{
+  display: flex;
+  padding: 100px 200px;
+  gap: 100px;
+  background: rgba(255, 248, 243, 1);
+  
+}
+
+.footer div{
+  width: 50%;
+}
+
+.footer h1{
+  color: rgba(24, 24, 24, 1);
+  font-size: 35px;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+.footer p{
+  color: rgb(125, 124, 124);
+  font-size: 14px;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+.footer img{
+padding-right: 25px;
+}
+
+.footer form input, textarea{
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: white;
+  border-style: none;
 }
